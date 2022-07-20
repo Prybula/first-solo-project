@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+:root {
+    --title-color: #c7a17a;
+}
 
 .header__banner-slogan {
     color: white;
@@ -9,13 +12,13 @@
 }
 
 h1 {
-    color: #c7a17a!important;
+    color: var(--title-color);
     font-family: 'Satisfy', cursive;
     font-size: 24px;
     font-weight: 400;
 }
 h2 {
-    color: #c7a17a!important;
+    color: var(--title-color);
     font-family: 'Satisfy', cursive;
     font-size: 24px;
     font-weight: 400;
